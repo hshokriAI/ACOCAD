@@ -167,6 +167,6 @@ class ACOCAD_model(tf.keras.Model):
         VQA_model.summary()
         return VQA_model
 
-# model=ACOCAD_Model()
+# model=ACOCAD_model()
 # VQA_model=model.main()
 # print(VQA_model.summary())
